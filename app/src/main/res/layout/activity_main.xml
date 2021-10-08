@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="295dp"
+        android:layout_height="85dp"
+        android:text="Test Your Mental"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="115dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="295dp"
+        android:layout_height="85dp"
+        android:text="Tes Your Emotion"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="295dp"
+        android:layout_height="85dp"
+        android:text="Test Your Thinking Level"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="295dp"
+        android:layout_height="85dp"
+        android:text="Physical Health Check"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="120dp"
+        android:layout_height="31dp"
+        android:gravity="center"
+        android:text="Result"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+</RelativeLayout>
