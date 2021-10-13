@@ -7,9 +7,9 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="252dp"
-        android:layout_height="96dp"
+        android:layout_width="295dp"
+        android:layout_height="85dp"
         android:text="HAKDUG?"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="205dp" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="100dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
